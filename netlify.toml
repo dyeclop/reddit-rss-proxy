@@ -1,0 +1,7 @@
+[build]
+  command = "echo OK"
+
+[[redirects]]
+  from = "/*/.xml"
+  to = "https://www.reddit.com/r/:splat/new/.xml"
+  status = 200
